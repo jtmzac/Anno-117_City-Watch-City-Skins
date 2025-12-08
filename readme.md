@@ -8,7 +8,7 @@ The game currently has some inconsistencies with how it decides to layer texture
 
 When you first swap a building to a city skin and try to place flagstone or any other "low" height ground tiling over it you may find it doesn't work and is placed underneath the building's ground texture instead. "High" ground tiles will normally always draw over the ground textures.
 
-Low height textures are the grass/dirt/mud/flagstone in the base game or any of the dynamic variants in my additional flagstones mod. High textures are most of the ground tiles in the base game including all the mosaics, or the tiled variants in my additional flagstones mod.
+Low height textures are the grass/dirt/mud/flagstone in the base game or any of the dynamic variants in my additional flagstones mod. High textures are the rest of the ground tiles in the base game including all the mosaics, or the tiled variants in my additional flagstones mod.
 
 This issue is usually fixed by saving and then fully restarting the game. For some reason this seems to change the draw ordering and allows the ground tiles to go over the buildings ground texture properly.
 
