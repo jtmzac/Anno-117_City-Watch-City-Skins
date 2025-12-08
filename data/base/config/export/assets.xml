@@ -1,0 +1,629 @@
+<!-- <GUID>30754</GUID> -->
+<!-- <GUID>30762</GUID> -->
+<!-- <GUID>30765</GUID> -->
+
+<!-- <GUID>71264</GUID> -->
+<!-- <GUID>71265</GUID> -->
+<!-- <GUID>71266</GUID> -->
+
+<!-- <GUID>30769</GUID> -->
+<!-- <GUID>30770</GUID> -->
+<!-- <GUID>30771</GUID> -->
+
+<!-- <GUID>71267</GUID> -->
+<!-- <GUID>71268</GUID> -->
+<!-- <GUID>71269</GUID> -->
+
+
+<ModOps>
+  <ModOp Add="/AssetList/Groups[last()]"><Group><Assets /></Group></ModOp>
+
+  <!-- enable ground decoration over base decals -->
+  <ModOp Merge="//Blocking[../../Template = 'MiniInstitutionBuilding']">
+    <RemovePreviousGroundPolygon>0</RemovePreviousGroundPolygon>
+  </ModOp>
+  <ModOp Merge="//Blocking[../../Template = 'CityInstitutionBuilding']">
+    <RemovePreviousGroundPolygon>0</RemovePreviousGroundPolygon>
+  </ModOp>
+  <ModOp Merge="//Blocking[../../Template = 'CityInstitutionBuilding_Marsh']">
+    <RemovePreviousGroundPolygon>0</RemovePreviousGroundPolygon>
+  </ModOp>
+
+
+
+  <!-- ||||||||||||||||||||||||||||||||||||||||||| -->
+  <!--             Normal roof colours             -->
+  <!-- ||||||||||||||||||||||||||||||||||||||||||| -->
+  <Group>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1400300110</GUID>
+          <Name>Institution Roman Fire City Skin</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_vigiles.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1400300110</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data/jtmzac/city_skins/roman/fire/institution_01.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinIcon>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_vigiles.png</SkinIcon>
+        </Skin>
+        <Locked>
+          <Scope />
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1400300110</OasisId>
+        </Text>
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1400300111</GUID>
+          <Name>Institution Roman Riot City Skin</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_cohortes.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1400300111</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data/jtmzac/city_skins/roman/police/institution_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinIcon>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_cohortes.png</SkinIcon>
+        </Skin>
+        <Locked>
+          <Scope />
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1400300111</OasisId>
+        </Text>
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1400300112</GUID>
+          <Name>Institution Roman Illness City Skin</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_medici.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1400300112</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data/jtmzac/city_skins/roman/hospital/institution_03.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinIcon>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_medici.png</SkinIcon>
+        </Skin>
+        <Locked>
+          <Scope />
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1400300112</OasisId>
+        </Text>
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1400300113</GUID>
+          <Name>Institution Roman Fire Mini City Skin</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/infrastructure/icon_3d_institution_well.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1400300113</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data/jtmzac/city_skins/roman/well/mini_institution_01.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinIcon>data/ui/fhd/base/icon_content/infrastructure/icon_3d_institution_well.png</SkinIcon>
+        </Skin>
+        <Locked>
+          <Scope />
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1400300113</OasisId>
+        </Text>
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1400300114</GUID>
+          <Name>Institution Roman Riot Mini City Skin</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/infrastructure/icon_3d_institution_watch_tower.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1400300114</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data/jtmzac/city_skins/roman/watchtower/mini_institution_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinIcon>data/ui/fhd/base/icon_content/infrastructure/icon_3d_institution_watch_tower.png</SkinIcon>
+        </Skin>
+        <Locked>
+          <Scope />
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1400300114</OasisId>
+        </Text>
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1400300115</GUID>
+          <Name>Institution Roman Illness Mini City Skin</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/infrastructure/icon_3d_institution_latrine.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1400300115</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data/jtmzac/city_skins/roman/latrine/mini_institution_03.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinIcon>data/ui/fhd/base/icon_content/infrastructure/icon_3d_institution_latrine.png</SkinIcon>
+        </Skin>
+        <Locked>
+          <Scope />
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1400300115</OasisId>
+        </Text>
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1400300116</GUID>
+          <Name>Institution Roman Celtic Riot City Skin</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_cohortes.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1400300111</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data/jtmzac/city_skins/roman_celtic/police/institution_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinIcon>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_cohortes.png</SkinIcon>
+        </Skin>
+        <Locked>
+          <Scope />
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1400300111</OasisId>
+        </Text>
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+
+  </Group>
+
+  <!-- ||||||||||||||||||||||||||||||||||||||||||| -->
+  <!--          Terracotta roof colours            -->
+  <!-- ||||||||||||||||||||||||||||||||||||||||||| -->
+  <Group>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1400300117</GUID>
+          <Name>Institution Roman Fire City Skin</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_vigiles.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1400300117</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data/jtmzac/city_skins/uncoloured_roofs/roman/fire/institution_01.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinIcon>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_vigiles.png</SkinIcon>
+        </Skin>
+        <Locked>
+          <Scope />
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1400300117</OasisId>
+        </Text>
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1400300118</GUID>
+          <Name>Institution Roman Riot City Skin</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_cohortes.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1400300118</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data/jtmzac/city_skins/uncoloured_roofs/roman/police/institution_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinIcon>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_cohortes.png</SkinIcon>
+        </Skin>
+        <Locked>
+          <Scope />
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1400300118</OasisId>
+        </Text>
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1400300119</GUID>
+          <Name>Institution Roman Illness City Skin</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_medici.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1400300119</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data/jtmzac/city_skins/uncoloured_roofs/roman/hospital/institution_03.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinIcon>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_medici.png</SkinIcon>
+        </Skin>
+        <Locked>
+          <Scope />
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1400300119</OasisId>
+        </Text>
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1400300120</GUID>
+          <Name>Institution Roman Illness Mini City Skin</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/infrastructure/icon_3d_institution_latrine.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1400300120</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data/jtmzac/city_skins/uncoloured_roofs/roman/latrine/mini_institution_03.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinIcon>data/ui/fhd/base/icon_content/infrastructure/icon_3d_institution_latrine.png</SkinIcon>
+        </Skin>
+        <Locked>
+          <Scope />
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1400300120</OasisId>
+        </Text>
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1400300121</GUID>
+          <Name>Institution Roman Celtic Riot City Skin</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_cohortes.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1400300118</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data/jtmzac/city_skins/uncoloured_roofs/roman_celtic/police/institution_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinIcon>data/ui/fhd/base/icon_content/building/icon_3d_institution_roman_cohortes.png</SkinIcon>
+        </Skin>
+        <Locked>
+          <Scope />
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1400300118</OasisId>
+        </Text>
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+  </Group>
+
+
+
+  <!-- ||||||||||||||||||||||||||||||||||||||||||| -->
+  <!--       Add skins to existing buildings       -->
+  <!-- ||||||||||||||||||||||||||||||||||||||||||| -->
+  <Group>
+
+    <ModOp Merge="@30754/Object">
+      <Skins>
+        <SkinList />
+      </Skins>
+    </ModOp>
+    <ModOp Merge="@30754/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300110</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+
+    <ModOp Merge="@30769/Object">
+      <Skins>
+        <SkinList />
+      </Skins>
+    </ModOp>
+    <ModOp Merge="@30769/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300110</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+
+    <ModOp Merge="@30762/Object">
+      <Skins>
+        <SkinList />
+      </Skins>
+    </ModOp>
+    <ModOp Merge="@30762/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300111</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+
+    <ModOp Merge="@30765/Object">
+      <Skins>
+        <SkinList />
+      </Skins>
+    </ModOp>
+    <ModOp Merge="@30765/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300112</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+    <ModOp Merge="@30771/Object">
+      <Skins>
+        <SkinList />
+      </Skins>
+    </ModOp>
+    <ModOp Merge="@30771/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300112</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+
+    <ModOp Merge="@71264/Object">
+      <Skins>
+        <SkinList />
+      </Skins>
+    </ModOp>
+    <ModOp Merge="@71264/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300113</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+    <ModOp Merge="@71267/Object">
+      <Skins>
+        <SkinList />
+      </Skins>
+    </ModOp>
+    <ModOp Merge="@71267/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300113</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+
+    <ModOp Merge="@71265/Object">
+      <Skins>
+        <SkinList />
+      </Skins>
+    </ModOp>
+    <ModOp Merge="@71265/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300114</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+    <ModOp Merge="@71268/Object">
+      <Skins>
+        <SkinList />
+      </Skins>
+    </ModOp>
+    <ModOp Merge="@71268/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300114</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+
+    <ModOp Merge="@71266/Object">
+      <Skins>
+        <SkinList />
+      </Skins>
+    </ModOp>
+    <ModOp Merge="@71266/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300115</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+    <ModOp Merge="@71269/Object">
+      <Skins>
+        <SkinList />
+      </Skins>
+    </ModOp>
+    <ModOp Merge="@71269/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300115</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+
+    <ModOp Merge="@30770/Object">
+      <Skins>
+        <SkinList />
+      </Skins>
+    </ModOp>
+    <ModOp Merge="@30770/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300116</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+  </Group>
+
+
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!--  Add terracotta roof variants if mod is installed  -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+  <Group Condition="#city-watch-terracotta-roof-skins-jtmzac">
+    <ModOp Merge="@30754/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300117</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+    <ModOp Merge="@30769/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300117</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+
+    <ModOp Merge="@30762/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300118</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+
+    <ModOp Merge="@30765/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300119</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+    <ModOp Merge="@30771/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300119</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+
+    <ModOp Merge="@71266/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300120</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+    <ModOp Merge="@71269/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300120</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+
+    <ModOp Merge="@30770/Object/Skins/SkinList">
+      <ModItem Merge="SkinAssetGuid">
+        <SkinAssetGuid>1400300121</SkinAssetGuid>
+      </ModItem>
+    </ModOp>
+  </Group>
+
+
+
+
+
+
+
+
+
+  <!-- <Group Condition="#city-watch-roof-colour-skins-jtmzac">
+    <ModOp Replace="@1400300110/Skin/SkinVariations">
+        <SkinVariations>
+          <Item>
+            <FileName>data/jtmzac/uncoloured_roofs/roman/fire/institution_01.cfg</FileName>
+          </Item>
+        </SkinVariations>
+    </ModOp>
+    <ModOp Replace="@1400300111/Skin/SkinVariations">
+        <SkinVariations>
+          <Item>
+            <FileName>data/jtmzac/uncoloured_roofs/roman/police/institution_02.cfg</FileName>
+          </Item>
+        </SkinVariations>
+    </ModOp>
+    <ModOp Replace="@1400300112/Skin/SkinVariations">
+        <SkinVariations>
+          <Item>
+            <FileName>data/jtmzac/uncoloured_roofs/roman/hospital/institution_03.cfg</FileName>
+          </Item>
+        </SkinVariations>
+    </ModOp>
+    <ModOp Replace="@1400300115/Skin/SkinVariations">
+        <SkinVariations>
+          <Item>
+            <FileName>data/jtmzac/uncoloured_roofs/roman/latrine/mini_institution_03.cfg</FileName>
+          </Item>
+        </SkinVariations>
+    </ModOp>
+    <ModOp Replace="@1400300116/Skin/SkinVariations">
+        <SkinVariations>
+          <Item>
+            <FileName>data/jtmzac/uncoloured_roofs/roman_celtic/police/institution_02.cfg</FileName>
+          </Item>
+        </SkinVariations>
+    </ModOp>
+  </Group> -->
+
+
+</ModOps>

@@ -1,0 +1,19 @@
+{
+  "Anno": 8,
+  "ModID": "city-watch-city-skins-jtmzac",
+  "Version": "1.0.0",
+  "Difficulty": "unchanged",
+  "Dependencies": {
+    "Optional": ["city-watch-terracotta-roof-skins-jtmzac"],
+    "LoadAfter": ["city-watch-terracotta-roof-skins-jtmzac"]
+  },
+  "Category": {
+    "English": "Cosmetic"
+  },
+  "ModName": {
+    "English": "City Watch City Skins"
+  },
+  "Description": {
+    "English": "Adds new skins for the city watch buildings and their smaller amenities versions that have stone ground textures better suited to cities"
+  }
+}

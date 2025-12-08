@@ -1,0 +1,67 @@
+
+
+<ModOps>
+
+  <ModOp Add="/TextExport/Texts[1]">
+    <Text>
+      <Text>City Vigiles</Text>
+      <LineId>1400300110</LineId>
+    </Text>
+  </ModOp>
+  <ModOp Add="/TextExport/Texts[1]">
+    <Text>
+      <Text>City Cohortes</Text>
+      <LineId>1400300111</LineId>
+    </Text>
+  </ModOp>
+  <ModOp Add="/TextExport/Texts[1]">
+    <Text>
+      <Text>City Medici</Text>
+      <LineId>1400300112</LineId>
+    </Text>
+  </ModOp>
+  <ModOp Add="/TextExport/Texts[1]">
+    <Text>
+      <Text>City Well</Text>
+      <LineId>1400300113</LineId>
+    </Text>
+  </ModOp>
+  <ModOp Add="/TextExport/Texts[1]">
+    <Text>
+      <Text>City Watchtower</Text>
+      <LineId>1400300114</LineId>
+    </Text>
+  </ModOp>
+  <ModOp Add="/TextExport/Texts[1]">
+    <Text>
+      <Text>City Latrines</Text>
+      <LineId>1400300115</LineId>
+    </Text>
+  </ModOp>
+  <ModOp Add="/TextExport/Texts[1]">
+    <Text>
+      <Text>Terracotta City Vigiles</Text>
+      <LineId>1400300117</LineId>
+    </Text>
+  </ModOp>
+  <ModOp Add="/TextExport/Texts[1]">
+    <Text>
+      <Text>Terracotta City Cohortes</Text>
+      <LineId>1400300118</LineId>
+    </Text>
+  </ModOp>
+  <ModOp Add="/TextExport/Texts[1]">
+    <Text>
+      <Text>Terracotta City Medici</Text>
+      <LineId>1400300119</LineId>
+    </Text>
+  </ModOp>
+  <ModOp Add="/TextExport/Texts[1]">
+    <Text>
+      <Text>Terracotta City Latrines</Text>
+      <LineId>1400300120</LineId>
+    </Text>
+  </ModOp>
+
+
+</ModOps>
