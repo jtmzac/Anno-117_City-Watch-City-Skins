@@ -532,7 +532,7 @@
   <!--  Add terracotta roof variants if mod is installed  -->
   <!-- |||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
-  <Group Condition="#city-watch-terracotta-roof-skins-jtmzac">
+  <Group Condition="#city-watch-terracotta-roof-skins-jtmzac or #taludas-oldroofskins">
     <ModOp Merge="@30754/Object/Skins/SkinList">
       <ModItem Merge="SkinAssetGuid">
         <SkinAssetGuid>1400300117</SkinAssetGuid>
