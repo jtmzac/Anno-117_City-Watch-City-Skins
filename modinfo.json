@@ -1,7 +1,7 @@
 {
   "Anno": 8,
   "ModID": "city-watch-city-skins-jtmzac",
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "Difficulty": "unchanged",
   "Dependencies": {
     "Optional": ["city-watch-terracotta-roof-skins-jtmzac"],
